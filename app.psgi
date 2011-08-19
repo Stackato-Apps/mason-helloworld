@@ -23,7 +23,8 @@ my $app = sub {
     $interp->handle_psgi($env);
 };
 builder {
-    # Include PSGI middleware here
+    # Include PSGI middleware required for Stackato
+    enable "Plack::Middleware::ContentLength";
     enable "Plack::Middleware::ReverseProxy";
     $app;
 };
