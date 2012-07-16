@@ -9,3 +9,5 @@ Mason is a web application framework written in Perl.
 ## More Details
 
 http://en.wikipedia.org/wiki/Mason_(Perl)
+
+http://docs.stackato.com/deploy/languages/perl/mason.html
