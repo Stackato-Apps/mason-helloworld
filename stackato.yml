@@ -1,5 +1,5 @@
 # so that we can deploy with 'stackato push --no-prompt'
-name: mason-hello
+name: mason-helloworld
 
 framework:
   type: perl
