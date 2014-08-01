@@ -1,0 +1,4 @@
+applications:
+- name: mason-helloworld
+  framework:
+    name: perl
