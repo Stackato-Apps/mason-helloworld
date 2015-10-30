@@ -23,7 +23,7 @@ my $app = sub {
     $interp->handle_psgi($env);
 };
 builder {
-    # Include PSGI middleware required for Stackato
+    # Include PSGI middleware required for HPE Helion Stackato
     enable "Plack::Middleware::ContentLength";
     enable "Plack::Middleware::ReverseProxy";
     $app;

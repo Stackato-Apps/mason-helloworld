@@ -2,7 +2,7 @@
 
 Mason is a web application framework written in Perl.
 
-## Deploy on Stackato
+## Deploy on HPE Helion Stackato
 
      stackato push -n
 
